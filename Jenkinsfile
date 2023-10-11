@@ -14,6 +14,9 @@ pipeline {
             steps{
                 script{
                     sh 'docker build -t akhiltadikamalla/devops-integration1:$BUILD_NUMBER .'
+                    def dockerImage = docker.build('my-image:latest')
+                    // Print the image tag to the console
+                    echo dockerImage.tag
                 }
             }
         }
