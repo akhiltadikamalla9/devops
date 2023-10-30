@@ -1,0 +1,6 @@
+akhil 100
+mani 200
+dhanuj 300
+bharadwaj 600
+gokul 900
+nagprasad 10000
